@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding-top: 15px;
+  margin-right: 50px;
 }
 
 .App-logo {
@@ -35,4 +37,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header {
+  background-color: grey;
+  padding: 5px;
+}
+
+.AppName {
+  text-align: center;
+  font-size: large;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.EmployeeName {
+  text-align: right;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.Language {
+  text-align: right;
+  margin-right: 5px;
+  padding-top: 0px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.wrapper .sidebar{
+  background: rgb(68, 84, 106);
+  position: fixed;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.SideText {
+  margin-left: 15px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.Create {
+  color: yellow;
+}
+
+.Information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Information input {
+  font-size: large;
+  padding-left: 10px;
+}
+
+.RowDiv {
+  display: flex;
+  flex-direction: row;
 }
