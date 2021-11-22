@@ -1,0 +1,20 @@
+.wrapper .sidebar{
+    background: rgb(68, 84, 106);
+    position: fixed;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+  }
+  
+  .SideText {
+    margin-left: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  
+  .Create {
+    color: yellow;
+  }
+  
+ 

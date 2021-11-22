@@ -1,0 +1,27 @@
+.Header {
+    background-color: grey;
+    padding: 5px;
+  }
+  
+  .AppName {
+    display: flex;
+    justify-content:center;
+    font-size: large;
+    padding: 0px;
+    font-weight: bold;
+  }
+  
+  .EmployeeName {
+    display: flex;
+    justify-content: right;
+    margin-right: 5px;
+    padding-top: 0px;
+    font-weight: bold;
+  }
+  .Language {
+    text-align: right;
+    margin-right: 5px;
+    padding-top: 0px;
+    font-size: large;
+    font-weight: bold;
+  }

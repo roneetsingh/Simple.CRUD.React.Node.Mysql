@@ -1,34 +1,36 @@
 import '../App.css';
+import './Form.css';
 
 const Form = () => {
     return(
         <div className="App">
             <h3>CREATE NEW SUB-AGENT</h3>
             <div className="Information">
-            <div className="RowDiv">
-                <label>Account Username *:</label>
-                <input type="text"/>
-                </div>
-                <div className="RowDiv">
-                <label>Password *:</label>
-                <input type="text"/></div>
-                <div className="RowDiv">
-                <label>Confirm Password*:</label>
-                <input type="text"/></div>
+            <form>
+                <p>
+                    <label>Account Username:</label>
+                    <input type="text"/>
+                </p>
+                <p>
+                    <label>Password*:</label>
+                    <input type="text"/>
+                </p>
+                <p>
+                    <label>Confirm Password*:</label>
+                    <input type="text"/>
+                </p>
                 <br/>
-                <div className="RowDiv">
-                
-                <label>Sub-Agent Name *:</label>
-                <input type="text"/></div>
+                <p>
+                    <label>Sub-Agent Name*:</label>
+                    <input type="text"/>
+                </p>
                 <br/>
-                <div className="RowDiv">
-                
-                <label>Contact Number:</label>
-                <input type="number"/></div>
+                <p>
+                    <label>Contact Number:</label>
+                    <input type="number"/>
+                </p>
+            </form>
             </div>
-            <br/>
-            <label>PTT User Price:</label>
-                <input type="number"/>
         </div>
     )
 }
