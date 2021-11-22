@@ -30,3 +30,23 @@ input {
     display: flex;
     flex-direction: row;
   }
+
+
+DIV.table 
+{
+    display:table;
+}
+FORM.tr, DIV.tr
+{
+    display:table-row;
+}
+SPAN.td
+{
+    display:table-cell;
+}
+
+.size {
+    width: 320px;
+    height: 50px;
+    margin-top: 15px;
+}
